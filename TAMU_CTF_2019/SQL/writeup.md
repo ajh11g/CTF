@@ -19,10 +19,12 @@ One way to prevent SQL injection is with the use of prepared statements. Using P
 
 Main portion of login.php (before):
 ```
- $conn = new mysqli($servername, $username, $password, $dbname);
-
-
- $sql = "SELECT * FROM login WHERE User='$user' AND Password='$pass'";
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    if ($conn->connect_error)
+        die("Connection failed: " . $conn->connect_error);
+    $user = $_POST['username'];
+    $pass = $_POST['password'];
+    $sql = "SELECT * FROM login WHERE User='$user' AND Password='$pass'";
     if ($result = $conn->query($sql))
     {
       if ($result->num_rows >= 1)
@@ -37,6 +39,7 @@ Main portion of login.php (before):
       }
     }
     $conn->close();
+
 ```
 
 After:
