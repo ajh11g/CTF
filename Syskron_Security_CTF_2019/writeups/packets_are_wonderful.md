@@ -1,8 +1,8 @@
 # Packets Are Wonderful
 
-## Points: 500
+### Points: 500
 
-## Description
+### Description
 >All the PLCs programs have a high information value. I just have to get it.
 
 ## Writeup
@@ -20,4 +20,4 @@ Decoding this string gives us our flag:
 
 ![Decode](../images/paw3.png)
 
-## Flag: `{s7_r0cks}`
+### Flag: `{s7_r0cks}`

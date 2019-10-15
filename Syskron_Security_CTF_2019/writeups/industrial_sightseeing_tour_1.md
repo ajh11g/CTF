@@ -1,8 +1,8 @@
 # Industrial Sightseeing tour 1
 
-## Points: 100
+### Points: 100
 
-## Description
+### Description
 >My friend loves factories. But she didn't tell me the location (city) of this building. Can you help me?
 
 ![Task Image](../images/ist1.JPG)
@@ -16,4 +16,4 @@ After scrolling through some of the locations, the building from the original pi
 
 ![pic1](../images/ist2.png)
 
-## Flag: `{Ceske-Budejovice}`
+### Flag: `{Ceske-Budejovice}`

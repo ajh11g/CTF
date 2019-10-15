@@ -1,8 +1,8 @@
 # Acess the Device!
 
-## Points: 200
+### Points: 200
 
-## Description
+### Description
 > I found this device in the control cabinet, seems to be interesting. Can you please help me find out the default username and password?
 
 ![Task Image](../images/atd1.png)
@@ -16,4 +16,4 @@ The [user manual](https://public.centerdevice.de/2fbc5e37-0535-46cf-b78b-486f560
 
 ![Task Image](../images/atd2.png)
 
-## Flag: `{insys:icom}`
+### Flag: `{insys:icom}`

@@ -1,8 +1,8 @@
 # Industrial Sightseeing Tour 2
 
-## Points: 200
+### Points: 200
 
-## Description
+### Description
 > She sent me another picture. Can you tell me the name of the tower on top of the red industrial building?
 
 ![Task Image](../images/ist21.JPG)
@@ -20,4 +20,4 @@ While focused on Germany, running another Maps search for "Europark" gives us a 
 
 From the maps view, we see the tower's name and the flag (Arno-Lippmann-Schact): https://www.google.com/maps/place/Arno-Lippmann-Schacht/@50.7589027,13.7649306,415m/data=!3m1!1e3!4m13!1m7!3m6!1s0x4709933ee18d9193:0xe303d095bfb7dc21!2sEuropark,+01773+Altenberg,+Germany!3b1!8m2!3d50.7590168!4d13.7674151!3m4!1s0x4709933edaea1289:0x2413ff66dc6fd5c6!8m2!3d50.7593421!4d13.765505
 
-## Flag: `{Arno-Lippmann-Schact}`
+### Flag: `{Arno-Lippmann-Schact}`
