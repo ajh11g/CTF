@@ -10,15 +10,15 @@ What could that be?
 The following image is provided:
 ![Task Image](images/Screenshot_2020-05-19_at_11.38.08_AM.png)
 
-Nothing in the image content itself was interesting. Openinig the image in StegSolve, we can see that there are a few interesting bits on certain planes:
+Nothing in the image content itself was interesting. Opening the image in StegSolve, we can see that there are a few interesting bits on certain planes:
 
 ![Task Image 1](images/screenshot1.png)
 
 ![Task Image 2](images/screenshot2.png)
 
-Based on the clues provided, this is probably least significat bit steganography.
+Based on the clues provided, this is probably least significant bit steganography.
 
-In the second image above represetning the Green plane 0, there's a vertical line of pixels, which is probably where our flag is.
+In the second image above representing the Green plane 0, there's a vertical line of pixels, which is probably where our flag is.
 
 In StegSolve's Data Extract feature, setting the bit plane mentioned above and copying the data out to a text editor reveals the flag:
 
